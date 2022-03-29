@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let modalView = BannerView(frame: self.view.bounds)
          
-        modalView.play(Url: "https://storage.googleapis.com/prod-aawz2-bckt/episode/epi_f7011b.mp3")
+        modalView.play(Url: "")
           view.addSubview(modalView)
       }
     }
