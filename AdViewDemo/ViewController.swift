@@ -6,14 +6,19 @@
 //
 
 import UIKit
+import AdView
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let modalView = BannerView(frame: self.view.bounds)
+         
+        modalView.play(Url: "https://storage.googleapis.com/prod-aawz2-bckt/episode/epi_f7011b.mp3")
+          view.addSubview(modalView)
+      }
     }
 
 
-}
+
 

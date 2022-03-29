@@ -1,0 +1,24 @@
+{
+  "name": "AdView",
+  "version": "1.0.0",
+  "summary": "A short description of AdView.",
+  "description": "ADView is used to add AdView with audio Player",
+  "homepage": "https://appcoda.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chandan": "chandany1611@gmial.com"
+  },
+  "platforms": {
+    "ios": "13.1"
+  },
+  "source": {
+    "git": "https://github.com/chandan1611/BannerView_Test.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "AdView/**/*.{swift,h,m,xib,storyboard}",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}
